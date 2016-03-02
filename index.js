@@ -57,5 +57,10 @@ test('Testing roundToTwoDecimalPlaces()', function (assert) {
 		'1.004999999999999 should round to "1"'
 	);
 
+	assert.equal(
+		roundToTwoDecimalPlaces(1.50),
+		"1.5",
+		'1.50 should round to "1.5"'
+	);
 	assert.end();
 });
