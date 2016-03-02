@@ -1,6 +1,11 @@
 var test = require('tape');
 
 
+/**
+ * roundToTwoDecimalPlaces
+ * @param  {Number} num
+ * @return {String}
+ */
 var roundToTwoDecimalPlaces = function (num) {
 
 	// your implementation here!
