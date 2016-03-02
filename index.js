@@ -52,9 +52,9 @@ test('Testing roundToTwoDecimalPlaces()', function (assert) {
 	);
 
 	assert.equal(
-		roundToTwoDecimalPlaces(1.0049999999999999),
+		roundToTwoDecimalPlaces(1.004999999999999),
 		"1",
-		'1.0049999999999999 should round to "1"'
+		'1.004999999999999 should round to "1"'
 	);
 
 	assert.end();
